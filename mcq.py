@@ -3,7 +3,7 @@
 from groq import Groq
 
 # Replace 'your_api_key_here' with your actual API key
-client = Groq(api_key="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")
+client = Groq(api_key="your_api_key")
 
 prompt = "Generate 5 multiple-choice question about the solar system with four options and indicate the correct answer."
 completion = client.chat.completions.create(
